@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<!-- remix icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.1/remixicon.css" integrity="sha512-qCZncJ4Eg8NhDEWeYhMroBtRY/vizMiE0o9Wk7p2MPM7lAi1kSkhZuIkaYpsX+pjh1/7HqsdYBzIhVeCM3innw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- remix icon -->
+
+<!-- jquery cdn -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- jquery cdn -->
+<body class="bg-black">
+ 
+    <div class="navbar w-100 h-[80px]  flex justify-around border-b-[3px] border-red-400 border-[solid]">
+
+        <div class="navleft flex justify-center items-center w-[20%] h-[80px] text-white">
+            <h1 class="text-[40px] uppercase font-bold hover:text-red-900 cursor-pointer">Bakery</h1>
+        </div>
+
+        <div class="hidden navcenter w-[40%] md:flex justify-center items-center space-x-8 hover:cursor-pointer  uppercase text-[20px] text-white">
+            <div class="hover:text-red-900">Home</div>
+            <div class="hover:text-red-900">Product</div>
+            <div class="hover:text-red-900">Service</div>
+            <div class="hover:text-red-900">Help</div>
+            <div class="hover:text-red-900">About</div>
+        </div>
+
+
+        <div class="menus w-auto h-auto"> 
+            <div class="menu_icon  h-[80px] text-white flex  text-3xl items-center md:hidden"><i class="ri-menu-line"></i></div>
+        </div>
+        
+        
+        <div class=" hidden navright w-[30%] h-[80px] lg:flex items-center justify-center text-white">
+            <div class="w-[60%] h-[40px] bg-red-400 flex justify-center items-center rounded-3xl">
+                <input type="text" placeholder="Search" class="text-red-black px-[10px] w-[85%] h-[100%] rounded-3xl border-none outline-none placeholder:text-gray-600">
+                <i class="ri-search-line text-[25px] pr-[5px] font-bold w-[15%] h-[100%] flex items-center justify-center"></i>
+            </div>
+        </div>
+    </div>
+    
+    <div class="sidenav w-100 h-[50vh] bg-[#1F1F1F]  flex flex-col  text-white  text-[20px] font-bold">
+       
+        <div class="w-screen h-[10vh] flex justify-center items-center border-b-2 border-red-400 border-[solid]">Home</div>
+        <div class="w-screen h-[10vh] flex justify-center items-center border-b-2 border-red-400 border-[solid]">Product</div>
+        <div class="w-screen h-[10vh] flex justify-center items-center border-b-2 border-red-400 border-[solid]">Service</div>
+        <div class="w-screen h-[10vh] flex justify-center items-center border-b-2 border-red-400 border-[solid]">Help</div>
+        <div class="w-screen h-[10vh] flex justify-center items-center border-b-2 border-red-400 border-[solid]">About</div>
+
+    </div>
+</body>
+<script>
+jQuery.noConflict();
+jQuery(document).ready(function($){
+  
+})
+</script>
+</html>
