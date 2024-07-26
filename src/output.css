@@ -742,6 +742,14 @@ video {
   gap: 40px;
 }
 
+.gap-\[0px\] {
+  gap: 0px;
+}
+
+.gap-\[80px\] {
+  gap: 80px;
+}
+
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
