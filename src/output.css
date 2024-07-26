@@ -590,16 +590,16 @@ video {
   height: 220px;
 }
 
-.h-\[270px\] {
-  height: 270px;
+.h-\[250px\] {
+  height: 250px;
 }
 
 .h-\[40px\] {
   height: 40px;
 }
 
-.h-\[430px\] {
-  height: 430px;
+.h-\[440px\] {
+  height: 440px;
 }
 
 .h-\[50vh\] {
@@ -618,18 +618,6 @@ video {
   height: auto;
 }
 
-.h-\[440px\] {
-  height: 440px;
-}
-
-.h-\[20px\] {
-  height: 20px;
-}
-
-.h-\[250px\] {
-  height: 250px;
-}
-
 .w-\[100\%\] {
   width: 100%;
 }
@@ -646,12 +634,12 @@ video {
   width: 25%;
 }
 
-.w-\[30\%\] {
-  width: 30%;
+.w-\[290px\] {
+  width: 290px;
 }
 
-.w-\[320px\] {
-  width: 320px;
+.w-\[30\%\] {
+  width: 30%;
 }
 
 .w-\[40\%\] {
@@ -682,38 +670,6 @@ video {
   width: 100vw;
 }
 
-.w-\[0\%\] {
-  width: 0%;
-}
-
-.w-\[30px\] {
-  width: 30px;
-}
-
-.w-\[300px\] {
-  width: 300px;
-}
-
-.w-\[20px\] {
-  width: 20px;
-}
-
-.w-\[290px\] {
-  width: 290px;
-}
-
-.w-\[80\%\] {
-  width: 80%;
-}
-
-.min-w-\[320px\] {
-  min-width: 320px;
-}
-
-.max-w-\[320px\] {
-  max-width: 320px;
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -738,16 +694,28 @@ video {
   justify-content: space-around;
 }
 
-.gap-\[40px\] {
-  gap: 40px;
+.gap-\[80px\] {
+  gap: 80px;
 }
 
-.gap-\[0px\] {
+.gap-\[80px_\] {
+  gap: 80px;
+}
+
+.gap-\[0px_\] {
   gap: 0px;
 }
 
-.gap-\[80px\] {
-  gap: 80px;
+.gap-\[40px_\] {
+  gap: 40px;
+}
+
+.gap-\[40px_100p\] {
+  gap: 40px 100p;
+}
+
+.gap-\[40px_100px\] {
+  gap: 40px 100px;
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -766,6 +734,18 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-\[10px\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(10px * var(--tw-space-x-reverse));
+  margin-left: calc(10px * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded-2xl {
